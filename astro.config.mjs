@@ -16,7 +16,7 @@ export default defineConfig({
   integrations: [
     sitemap(),
     robotsTxt({
-      sitemap: [""],
+      sitemap: ["https://sparkly-babka-15f312.netlify.app/"],
     }),
     solidJs(),
     UnoCSS({ injectReset: true }),
